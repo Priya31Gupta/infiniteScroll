@@ -3,6 +3,7 @@ const images = new Array(100).fill(
   );
   
   let maxCols = 0;
+  
   const setMaxCols = () => {
     if (window.innerWidth <= 600) {
       maxCols = 2;
